@@ -1,0 +1,59 @@
+d<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gourmen</title>
+        <link rel="icon" href="images/logo_register.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://gourmen.web.app/">
+        <meta property="og:title" content="Gourmen">
+        <meta property="og:description" content="Anmelden">
+        <!-- <meta property="og:image" content="https://gourmen.github.io/Homepage/images/logo_register.png"> -->
+    </head>
+    <body>
+        <header class="kopfzeile">
+            <a href="https://gourmen.web.app/">
+                <img class="logo-header" src="images/logo_rund.png" alt="Gourmen Logo">
+            </a>
+        </header>
+
+            <div class="inhalt">
+                <h1>Willkommen auf der Webapp der Gourmen!</h1>
+                <img class="landscape-img" src="images/gruppenfoto_luzern.png" alt="gruppenfoto_luzern">
+            </div>
+
+            <div class="anmeldeformular">    
+            <form id="login-form">
+                <input type="email" id="email" placeholder="E-Mail" required>
+                <input type="password" id="password" placeholder="Passwort" required>
+                <button type="submit" class="button">Anmelden</button>
+            </form>
+            </div>
+        <footer>
+            <div class="footer">
+                <div class="footer-links">
+                    <a href="mailto:frohvollenmaenllichen@gmail.com">
+                        <img src="images/mail_gold.png" alt="E-Mail">
+                    </a>
+                    <a href="https://www.instagram.com/thegourmen_zh/" target="_blank">
+                        <img src="images/insta_gold.png" alt="Instagram">
+                    </a>
+                </div>
+                <p class="footer-text">Gourmen. Since 2021.</p>
+            </div>
+        </footer>
+
+        <!-- Firebase JavaScript SDK einbinden -->
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore.js"></script>
+
+        <!-- Firebase-Konfiguration -->
+        <script src="firebase-config.js"></script>
+
+    </body>
+    </html>
